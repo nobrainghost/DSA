@@ -1,8 +1,9 @@
 #include <iostream>
+using namespace std;
 
 int main() {
    
-    std::cout << "Selection Sorting";
+    cout << "Selection Sorting";
     int a[]={3,2,1,6,5,4,8,7,9,0};
     int length=sizeof(a)/sizeof(a[0]);
     
@@ -19,14 +20,14 @@ int main() {
         a[min_current]=temp;
     }
     for (int i = 0; i < length; i++) {
-        std::cout << a[i] << " "; 
+        cout << a[i] << " "; 
     }
-    std::cout << "\n";
+    cout << "\n";
     }
      for (int i = 0; i < length; i++) {
-        std::cout << a[i] << " "; 
+        cout << a[i] << " "; 
     }
-    std::cout << "\n";
+   cout << "\n";
     
 
     return 0;
